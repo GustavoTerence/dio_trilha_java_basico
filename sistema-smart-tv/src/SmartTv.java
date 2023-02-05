@@ -13,6 +13,8 @@ public class SmartTv {
 
         volume --;
 
+        System.out.print(" Diminuindo o volume para : " + volume);
+
 }
 
     public void ligar (){
