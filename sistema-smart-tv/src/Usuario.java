@@ -1,8 +1,12 @@
+import java.util.Scanner;
+
 public class Usuario {
     public static void main(String[] args) throws Exception {
         
 
         SmartTv smartTv = new SmartTv ();
+
+        Scanner scanner = new Scanner(System.in);
 
         smartTv.aumentarVolume();
 
@@ -20,8 +24,10 @@ public class Usuario {
         System.out.print(" volume atual ? " + smartTv.volume);
 
 
-        smartTv.mudarCanal(13);
 
-        System.out.print(" Canal atual ? " + smartTv.canal); 
+        System.out.print(" Selecione o Canal"); 
+        int canal = scanner.nextInt();
+
+        System.out.print(canal);
     }
 }
