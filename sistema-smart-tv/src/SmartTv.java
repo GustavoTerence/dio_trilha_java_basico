@@ -17,6 +17,24 @@ public class SmartTv {
 
 }
 
+    public void mudarCanal (int novocanal) {
+
+            canal = novocanal;
+
+    }
+
+    public void aumentarCanal () {
+
+        canal ++;
+
+    }
+
+    public void diminuirCanal () {
+
+        canal --;
+
+    }
+
     public void ligar (){
 
         ligada = true;

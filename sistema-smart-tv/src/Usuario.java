@@ -18,5 +18,10 @@ public class Usuario {
         smartTv.diminuirVolume();
 
         System.out.print(" volume atual ? " + smartTv.volume);
+
+
+        smartTv.mudarCanal(13);
+
+        System.out.print(" Canal atual ? " + smartTv.canal); 
     }
 }
